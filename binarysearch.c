@@ -9,19 +9,17 @@ void selectionsort(int arr[], int n);
 int main(void)
 {
     int arraysize = 10;
-    int key = 7;
+    int key;
     int i;
+
+    printf("What number would you like to look for in the array?");
+    scanf("%i", &key);
 
     int numarray[10] = {2,5,4,3,1,8,6,7,9,10};
     selectionsort(numarray, arraysize);
 
     //Sorted array
-    printf("Array is now sorted\n");
-    for(i =0;i<arraysize;i++)
-    {
-        printf("%d\n", numarray[i]);
-    }
-
+    printf("Sorting array....\n");
 
     bool ifexists = binarySearch(numarray, arraysize, key);
 

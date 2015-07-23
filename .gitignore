@@ -1,0 +1,8 @@
+#Compiled Source#
+################
+*.com	
+*.class
+*.dll
+*.exe
+*.o
+*.so
